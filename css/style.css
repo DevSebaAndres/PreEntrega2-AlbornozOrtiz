@@ -1,0 +1,370 @@
+
+/* BARRA DE NAVEGACION */
+
+.brand-logo{
+    font-family:'Lobster', cursive;
+    padding:10px;
+    color:rgb(48, 41, 41);
+    font-size: 2rem;
+    font-weight: none;
+    padding-left:20px;
+    background-color:#f3bcc2;
+    border-radius: 40px;
+}
+
+
+
+.imagen{
+    width:50px;
+    height:50px;
+}
+
+.nav-color{
+    background-color: grey;
+}
+
+.nav-link{
+    border:5px inset rgb(248, 194, 188);
+    border-radius:20px;
+ 
+}
+
+.nav-link:hover{
+    background-color:#f3bcc2;
+    color:black;
+}
+
+.nav-vinculo{
+    color:black;
+}
+
+
+
+.navbar{
+    padding:45px;
+}
+
+/* PALETA DE COLORES */
+/* 
+
+#F7909A
+#CF7FA2
+#9F73A0
+#706790
+#485977
+#2F4858
+
+*/
+
+/* SECCION PRINCIPAL */
+
+.text-principal{
+padding-top:4rem;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+   
+}
+
+.imagen-carrusel{
+    height:100vh;
+    width:100%;
+    padding:100px;
+    
+
+}
+
+.carousel-item{
+height: 100vh;
+}
+
+.seccion-principal{
+    background-color:#f3bcc2;
+    padding-bottom: 100px;
+}
+
+.mensaje-bonito{
+    margin-top:-40x;
+    border-radius: 10px;
+    color:white;
+    border:solid 2px white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mensaje-bonito:hover{
+    background-color: white;
+    color:black;
+}
+
+
+/* Seccion-footer */
+
+.seccion-footer{
+    background-color: rgb(51, 44, 44);
+    padding:150px;
+    color:white;
+    font-size: 20px;
+}
+
+.row i {
+    font-size: 28px;
+    padding-top:20px;
+    display:block;
+color:white;
+margin-left:1rem;
+
+}
+
+.row a{
+    color:black;
+    display:flex;
+    justify-content: start;
+    text-decoration: none;
+}
+
+.texto-footer{
+    border:2px solid grey;
+    border-radius: 20px;
+    text-align: center;
+    padding:10px;
+}
+
+.texto-footer:hover{
+
+    background-color:#f3bcc2;
+    color:black;
+
+}
+
+.sp{
+    padding:24.5px;
+}
+
+.columna-copy{
+
+    padding-top: 8rem;
+    text-align: center;
+    font-size:1rem;
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+/* PAGINA NOSOTROS */
+
+/* SECCION PRINCIPAL */
+
+.contenedor-padre{
+    padding:1rem;
+    border: 5px double black;
+  margin-bottom:2rem;
+  margin-top:200px;
+}
+
+.hijo h2{
+    padding:2rem;
+    text-align: center;
+    background-color: #f3bcc2;
+    font-family: 'Bebas Neue';
+    font-size:3rem;
+    text-decoration: 3px underline white; /* SUBRAYADO DE LA CAJA, EN ESTE CASO UN H2 */
+}
+
+
+
+
+
+
+.container-nosotros{
+    padding:100px;
+    background-color:#f3bcc2;
+}
+
+.img{
+    width:100%;
+    height:100vh;
+    padding:1rem;
+}
+.texto-imagen{
+    text-align: center;
+    color:black;
+    background-color: azure;
+    text-decoration:none;
+    padding:1rem;
+}
+
+.parrafo-texto{
+    padding-top:6rem;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: end;
+}
+
+.speech{
+    font-size: 3rem;
+   text-align: center;
+    font-family:'Bebas Neue', cursive;
+    border: 1px solid black;
+    padding:20px;
+border-radius: 40px;
+}
+
+
+.container-speech{
+    background-color:#f3bcc2;
+    padding:30px;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+/* PAGINA DE SUCURSALES */
+
+/* SECCION PRINCIPAL */
+
+.container-sucursales{
+    background-color: #f3bcc2;
+}
+
+.div-sucursales{
+    padding-top:2rem;
+    padding-bottom:20px;
+}
+
+.titulo-sucursal{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #f3bcc2;
+}
+
+.titulo-sucursales{
+padding-top:2rem;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+  
+}
+
+.row #ubicacion{
+    padding-top:7rem;
+    font-size:4rem;
+    color:rgb(207, 38, 38);
+    
+}
+
+.direccion{
+    color:black;
+    font-size: 2rem;
+}
+
+
+.numero-telefono{
+    font-size:2rem;
+    color:black;
+}
+
+.img-tamano{
+    padding-top:2rem; /* CREO ESPACIADO ENTRE LAS FOTOS */
+}
+
+#sucursal-3{
+    padding-bottom:2rem;
+}
+
+.seccion-ejemplo-card{
+    background-color:#f3bcc2;
+    padding-bottom:100px;
+    padding-top:100px;
+}
+
+.img-sucursal{
+    height:68.5vh; /* ACOMODA EL TAMAÑO DE LA IMAGEN EN LA CARD */
+}
+
+.icono-geo i{
+    color:red;
+}
+
+
+
+i span{
+    font-size: 1.5rem;
+    color:black;
+    
+}
+
+.card-title{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.boton{
+font-size:1.5rem;
+background-color: white;
+margin-top:2rem;
+}
+
+.boton:hover{
+    background-color: red;
+    color:white;
+}
+
+.img-sucursal{
+    height:50vh;
+}
+
+
+/* -------------------------------------------------------------------------------- */
+
+/* Pagina de Servicios */
+
+.servicios{
+    background-color:#fdfdfd;
+    padding-bottom:100px;
+    padding-top:30px;
+}
+
+.servicios img h2{
+    text-align: center;
+}
+
+#hoteleria{
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+
+.parrafo-servicio{
+    text-align:center;
+    font-size: 1rem;
+}
+
+.servicios .columna{
+    padding:20px;
+    border:0.3px solid #444436;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-evenly;
+    transition: all 0.3s ease-in;
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+/* PAGINA DE CONTACTO */
+
+.container-formulario{
+    border:1px double grey;
+    margin-bottom:70px;
+    padding:20px;
+}
+
+.form-label{
+    font-size: 1.5rem;
+    color:rgb(104, 54, 25);
+}
+
+.politica-privacidad{
+    color:#f3bcc2;
+    font-weight: bold;
+}
